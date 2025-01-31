@@ -11,6 +11,8 @@
 		AC29CE9F2D4CD7AA00EE7071 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC29CE9E2D4CD7AA00EE7071 /* ContentView.swift */; };
 		AC29CEA12D4CD7AC00EE7071 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AC29CEA02D4CD7AC00EE7071 /* Assets.xcassets */; };
 		AC29CEA42D4CD7AC00EE7071 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AC29CEA32D4CD7AC00EE7071 /* Preview Assets.xcassets */; };
+		AC29CEAB2D4CDB0900EE7071 /* Player.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC29CEAA2D4CDB0900EE7071 /* Player.swift */; };
+		AC29CEAD2D4CE56900EE7071 /* DiceView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC29CEAC2D4CE56900EE7071 /* DiceView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +21,8 @@
 		AC29CE9E2D4CD7AA00EE7071 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		AC29CEA02D4CD7AC00EE7071 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AC29CEA32D4CD7AC00EE7071 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		AC29CEAA2D4CDB0900EE7071 /* Player.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Player.swift; sourceTree = "<group>"; };
+		AC29CEAC2D4CE56900EE7071 /* DiceView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiceView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,6 +59,8 @@
 				AC29CE9E2D4CD7AA00EE7071 /* ContentView.swift */,
 				AC29CEA02D4CD7AC00EE7071 /* Assets.xcassets */,
 				AC29CEA22D4CD7AC00EE7071 /* Preview Content */,
+				AC29CEAA2D4CDB0900EE7071 /* Player.swift */,
+				AC29CEAC2D4CE56900EE7071 /* DiceView.swift */,
 			);
 			path = ScoreKeeper;
 			sourceTree = "<group>";
@@ -138,6 +144,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				AC29CE9F2D4CD7AA00EE7071 /* ContentView.swift in Sources */,
+				AC29CEAD2D4CE56900EE7071 /* DiceView.swift in Sources */,
+				AC29CEAB2D4CDB0900EE7071 /* Player.swift in Sources */,
 				AC29CE9D2D4CD7AA00EE7071 /* ScoreKeeperApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
